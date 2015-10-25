@@ -31,4 +31,12 @@ function playHadouken () {
   $('#hadouken-sound')[0].load();
   $('#hadouken-sound')[0].play();
 };
+ 
+ $(document).keydown (function(e) {
+    if (e.keyCode == 88) { 
+       $(".ryu-ready").hide();
+       $(".ryu-throwing").hide();
+       $(".ryu-still").hide();
+       $(".ryu-cool").show();}
 
+       });

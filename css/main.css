@@ -1,30 +1,37 @@
 body {
-	background-color: black;
+	
+	background-image: url('http://a4.files.theultralinx.com/image/upload/MTI5MDI0MjYxMDYxOTczMjY2.gif');
+	background-repeat: no-repeat;
+	background-position: 0 -80px;
 }
 
 #main {
-	background-color: white;
 	margin-top: 110px;
 	padding-left: 100px;
 	min-width: 1200px;
 	height: 500px;
 	position: relative;
 	z-index: 1;
+	overflow: hidden;
 }
 
 .ryu {
 	width: 659px;
 	height: 494px;
-	outline: 1px solid pink;
+	xoutline: 1px solid pink;
 }
 
-.ryu-still, .ryu-ready, .ryu-throwing {
+.ryu-still, .ryu-ready, .ryu-throwing, .ryu-cool {
 	width: 659px;
 	height: 494px;
 }
 
-.ryu-ready, .ryu-throwing {
+.ryu-ready, .ryu-throwing, .ryu-cool {
 	display: none;
+}
+
+.ryu-cool	{
+	 background-image: url('../images/ryu-cool.gif');
 }
 
 .ryu-ready {
@@ -39,7 +46,7 @@ body {
   background-image: url('../images/ryu-throwing-hadouken.png');
 }
 
-.ryu-still, .ryu-ready, .ryu-throwing, .ryu-throwing {
+.ryu-still, .ryu-ready, .ryu-throwing, .ryu-cool {
 	background-repeat: no-repeat;
 }
 
