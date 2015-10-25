@@ -1,29 +1,37 @@
 body {
-	
-	background-image: url('http://a4.files.theultralinx.com/image/upload/MTI5MDI0MjYxMDYxOTczMjY2.gif');
-	background-repeat: no-repeat;
-	background-position: 0 -80px;
+	background-color: black;
+    font-family: 'Roboto-Light', sans-serif;
+    }
+
+#instructions {
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	padding: 35px;
 }
 
 #main {
-	margin-top: 110px;
+	margin-top: 40px;
 	padding-left: 100px;
 	min-width: 1200px;
-	height: 500px;
+	height: 550px;
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
+	background-image: url('http://41.media.tumblr.com/tumblr_lsi8p153Ix1qer7uso1_1280.jpg');
+	background-repeat: no-repeat;
+	background-position: 0 -350px;
 }
 
 .ryu {
 	width: 659px;
-	height: 494px;
+	height: 550px;
 	xoutline: 1px solid pink;
 }
 
 .ryu-still, .ryu-ready, .ryu-throwing, .ryu-cool {
 	width: 659px;
-	height: 494px;
+	height: 550px;
 }
 
 .ryu-ready, .ryu-throwing, .ryu-cool {
